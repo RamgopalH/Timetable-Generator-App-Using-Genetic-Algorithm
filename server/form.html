@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Form</title>
+</head>
+<body>
+  <form action="/subject" method="post">
+    <h1>Subjects</h1>
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code"><br>
+
+    <label for="faculty">Faculty:</label>
+    <input type="text" id="faculty" name="faculty"><br>
+
+    <label for="credits">Credits:</label>
+    <input type="number" id="credits" name="credits"><br>
+
+    <label for="hasLab">Has Lab:</label>
+    <input type="number" id="hasLab" name="hasLab" value=0><br>
+
+    <label for="hasJ">Has J Section:</label>
+    <input type="number" id="hasJ" name="hasJ" value=0><br>
+
+    <label for="slots">Slots:</label>
+    <input type="text" id="slots" name="slots"><br>
+
+    <input type="submit" value="Submit">
+  </form>
+  <form action="/labs" method="post">
+    <h1>Labs</h1>
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code"><br>
+
+    <label for="faculty">Faculty:</label>
+    <input type="text" id="faculty" name="faculty"><br>
+
+    <label for="credits">Credits:</label>
+    <input type="number" id="credits" name="credits"><br>
+
+    <label for="slots">Slots:</label>
+    <input type="text" id="slots" name="slots"><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
